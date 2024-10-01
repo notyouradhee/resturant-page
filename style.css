@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #7a0358;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #771958;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 10px;
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    font-size: 1.1em;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#chef img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#chef p {
+    text-align: center;
+    font-style: italic;
+}
+
+
+#testimonials blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #611060;
+    max-width: 800px;
+    color: #7f8c8d;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #61126d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+form button:hover {
+    background-color: #721660;
+}
+
+
+#hours p {
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #5a125e;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #05111e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #5e1851;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
